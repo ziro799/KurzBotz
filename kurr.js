@@ -1166,17 +1166,17 @@ case 'allmenu':
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await kurr.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🏴‍☠️ Kurz Bot Assistan 🏴‍☠️'
-       ownerJid = "6281220670449@s.whatsapp.net"
+       nama = '🏴‍☠️ Nopal Bot Assistan 🏴‍☠️'
+       ownerJid = "6287701714069@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			
 menunya = `╭─❒ 「 Bot Info 」 ❒
-🏴‍☠️ _Creator : *NopalxDanz*
+🏴‍☠️ _Creator : *Nopal lista*
 🏴‍☠️ _Battery : ${baterai.battery}_
 🏴‍☠️ _Mode : ${publik ? 'Public' : 'Self'}_
 🏴‍☠️ _Total Hit : ${cmhit.length}_
 🏴‍☠️ _Prefix : ${multi ? 'Multi Prefix' : 'No Prefix'}_
-🏴‍☠️ _Nama Bot : Kurz Bot Assistan_
+🏴‍☠️ _Nama Bot : Pall Bot Assistan_
 🏴‍☠️ _Nama Owner : ${NamaOwner}_
 🏴‍☠️ _Nomor Owner : @${otod.split('@')[0]}_
 🏴‍☠️ _Auto Composing : ${settings.autocomposing}_
@@ -1475,7 +1475,7 @@ const serialUser = createSerial(18)
 🏴‍☠️ *🏴‍☠️ Pengguna:* ${_registered.length}
 └❏
 
-*「 Kurz Bot Assistan 」*`
+*「 Pall Bot Assistan 」*`
 gbutsan = [
 {buttonId:`menu`,buttonText:{displayText:'🏴‍☠️MENU🏴‍☠️'},type:1},
 {buttonId:`donasi`,buttonText:{displayText:'💗DONASI💗'},type:1}
@@ -2636,7 +2636,7 @@ ini_list.push({
 })
 }
 kurr.sendMessage(from, {
-"displayName": `Developer Kurz Bot Assistan`,
+"displayName": `Developer Pall Bot Assistan`,
 "contacts": ini_list 
 }, 'contactsArrayMessage', { quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true }})
 break
@@ -2698,7 +2698,7 @@ doni =`*╭─❒ 「 Donasi 」 ──────*
 *│*⬡ *Mau donasi apa cuma liat doang?*
 *│*⬡ *PULSA     : ${pulsa}*
 *│*⬡ *DANA    : ${dana}*
-*│*⬡ *GOPAY    : SCAN DI ATAS AJA*
+*│*⬡ *GOPAY    : +62 877-0171-4069*
 *└───────────────────*
 Scan QR di atas bila belum premium`
 kurr.sendMessage(from, dona, image, { quoted: ftrol, thumbnail: dona, caption: doni })
@@ -2709,7 +2709,7 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
 "templateMessage": {
 						"hydratedTemplate": {
 							"hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-							"hydratedFooterText": `Kurz Bot Assistan`,
+							"hydratedFooterText": `Pall Bot Assistan`,
 							"hydratedButtons": [
 								{
 									"quickReplyButton": {
@@ -2757,12 +2757,12 @@ if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted
   },
   "hydratedTemplate": {
     "hydratedContentText": `Hi ${pushname} 👋,\n\n${jmn} - ${week} ${weton} - ${calender}`,
-    "hydratedFooterText": `Kurz Bot Assistan`,
+    "hydratedFooterText": `Pall Bot Assistan`,
     "hydratedButtons": [
       {
         "urlButton": {
-          "displayText": `Script Kurz Bot Assistan`,
-          "url": "https://github.com/KurrXd"
+          "displayText": `Script Pall Bot Assistan`,
+          "url": "https://github.com/ziro799"
         },
         "index": 0
       }
